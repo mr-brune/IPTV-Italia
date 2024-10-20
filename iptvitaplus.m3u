@@ -1,12 +1,15 @@
-#EXTM3U
-#EXTINF:-1 tvg-id="Rai1.it" tvg-chno="1" tvg-logo="https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/rai1.png" group-title="Rai",Rai 1
-#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
-http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803&output=7&forceUserAgent=raiplayappletv
-#EXTINF:-1 tvg-id="Rai2.it" tvg-chno="2" tvg-logo="https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/rai2.png" group-title="Rai",Rai 2
-#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
-http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308718&output=7&forceUserAgent=raiplayappletv
-#EXTINF:-1 tvg-id="Rai3.it" tvg-chno="3" tvg-logo="https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/rai3.png" group-title="Rai",Rai 3
-#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+#EXTM3U x-tvg-url="http://www.epg-guide.com/it.gz"
+#EXTINF:-1 tvg-chno="1" tvg-id="rai 1" tvg-name="Rai 1" tvg-logo="http://odmsto.com/uploads/tv_image/sm/rai-1-prtwes3x26ld.png" group-title="Rai Tv" user-agent="raiplayappletv",Rai 1
+#EXTVLCOPT:http-user-agent=rainet/4.0.5
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803&output=7&forceUserAgent=raiplayappletv
+#EXTINF:-1 tvg-chno="2" tvg-id="rai 2" tvg-name="Rai 2" tvg-logo="http://odmsto.com/uploads/tv_image/sm/rai-2-bobi5do2jjqa.png" group-title="Rai Tv" user-agent="raiplayappletv",Rai 2
+#EXTVLCOPT:http-user-agent=rainet/4.0.5
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308718&output=7&forceUserAgent=raiplayappletv
+#EXTINF:-1 tvg-chno="3" tvg-id="rai 3" tvg-name="Rai 3" tvg-logo="http://odmsto.com/uploads/tv_image/sm/rai-3-kwvj7ve82k1u.png" group-title="Rai Tv",Rai 3
+#EXTVLCOPT:http-user-agent=rainet/4.0.4
+https://raisportdue1-dash-live.akamaized.net/dash/live/663973/raisportdue1/manifest.mpd
 http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308709&output=7&forceUserAgent=raiplayappletv
 #EXTINF:-1 tvg-id="Rete4.it" tvg-chno="4" tvg-logo="https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/rete4.png" group-title="Mediaset",Rete 4
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
